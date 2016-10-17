@@ -6,7 +6,7 @@ namespace clase001
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hols mundo por git");
+            Console.WriteLine("Hola mundo por git");
         }
     }
 }
