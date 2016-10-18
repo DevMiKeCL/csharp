@@ -8,7 +8,7 @@ namespace Lesson01
         {
             Console.WriteLine("Hola Mundo");
             comparacion();
-            compara(20);
+            compara(30);
         }
         public static void comparacion()
         {
