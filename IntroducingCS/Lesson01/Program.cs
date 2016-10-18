@@ -8,6 +8,7 @@ namespace Lesson01
         {
             Console.WriteLine("Hola Mundo");
             comparacion();
+            compara(10);
         }
         public static void comparacion()
         {
@@ -20,6 +21,25 @@ namespace Lesson01
             else
             {
                 Console.WriteLine("numero 1 es mayor a numero 2");
+            }
+        }
+        public static void compara(int n)
+        {
+            if (n < 10)
+            {
+                Console.WriteLine("El numero es menor que 10");
+            }
+            else if (n < 20)
+            {
+                Console.WriteLine("El numero es menor que 20");
+            }
+            else if (n < 30)
+            {
+                Console.WriteLine("el numero es menor que 30");
+            }
+            else
+            {
+                Console.WriteLine("el numero es mayor o igual a 30");
             }
         }
     }
