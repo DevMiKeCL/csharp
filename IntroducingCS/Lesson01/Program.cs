@@ -9,6 +9,8 @@ namespace Lesson01
             Console.WriteLine("Hola Mundo");
             // comparacion();
             // compara(30);
+            switch_Statement.TestSwitch(2, 2, '-');
+
         }
         public static void comparacion()
         {
