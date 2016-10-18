@@ -7,8 +7,8 @@ namespace Lesson01
         static void Main(string[] args)
         {
             Console.WriteLine("Hola Mundo");
-            comparacion();
-            compara(30);
+            // comparacion();
+            // compara(30);
         }
         public static void comparacion()
         {
