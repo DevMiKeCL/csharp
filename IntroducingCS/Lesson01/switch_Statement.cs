@@ -38,10 +38,10 @@ namespace Lesson01
                 case DayOfWeek.Wednesday:
                 case DayOfWeek.Thursday:
                 case DayOfWeek.Friday:
-                    Console.WriteLine("hoy es un dia de semana!");
+                    Console.WriteLine("hoy es un dia de semana");
                     break;
                 default:
-                    Console.WriteLine("Hoy es fin de semana!");
+                    Console.WriteLine("Hoy es fin de semana");
                     break;
             }
         }
