@@ -28,5 +28,22 @@ namespace Lesson01
             Console.WriteLine("Resultado es : {0}", result);
             return;
         }
+        public static void TestSwitchFallThrough()
+        {
+            DateTime dt = DateTime.Today;
+            switch (dt.DayOfWeek)
+            {
+                case DayOfWeek.Monday:
+                case DayOfWeek.Tuesday:
+                case DayOfWeek.Wednesday:
+                case DayOfWeek.Thursday:
+                case DayOfWeek.Friday:
+                    Console.WriteLine("hoy es viernes!");
+                    break;
+                default:
+                    Console.WriteLine("today is a weekend day!");
+                    break;
+            }
+        }
     }
 }

@@ -10,6 +10,7 @@ namespace Lesson01
             // comparacion();
             // compara(30);
             switch_Statement.TestSwitch(9, 2, '-');
+            switch_Statement.TestSwitchFallThrough();
             // este es un comentario
 
         }
